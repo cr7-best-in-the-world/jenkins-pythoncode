@@ -23,7 +23,7 @@ class Circle(Shape):
         return pi * (self.radius ** 2)
 
 
-shapes = [Rectangle(4, 5), Circle(3), Rectangle(6, 7), Circle(4),Rectangle(2, 3), Circle(4) ]
+shapes = [Rectangle(4, 5), Circle(3), Rectangle(6, 7), Circle(4),Rectangle(2, 3), Circle(4), Rectangle(6, 6), Circle(1) ]
 
 for shape in shapes:
     print(f"area of the shape is: {shape.area()}")
